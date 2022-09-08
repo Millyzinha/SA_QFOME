@@ -1,0 +1,59 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+
+    border-bottom: 4px solid #ED7E07;
+    align-items: center;
+    background-color: black;
+
+}
+
+ svg  {
+    background-color: black;
+    color: #ED7E07;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.esquerda{
+    display: flex;
+
+}
+
+.direita{
+
+
+
+    justify-content: flex-end;
+    right: 100px;
+   
+}
+
+.user {
+   
+right: 80px;
+}
+
+.title {
+    color: #ffffff;
+    font-family: cursive;
+}
+
+.h-logo {
+        width: 135px;
+        height: 135px;
+        background-image: url ('logo2.jpg');
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+        left: 700px;
+        top: 0px;
+          
+}
+
