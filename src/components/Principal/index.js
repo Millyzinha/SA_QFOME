@@ -1,13 +1,19 @@
-import React from "react";
-import Menu from "../Indexhome/menu";
+import React from 'react'
+import Header from '../Header/header'
+import Footer from '../footer/footer'
 
-const Principal = () => {
-  return (
-    <div >
-      <h2>Home Qfome</h2>
-      <Menu/>
-    </div>
-  );
-};
+const Home = () => {
 
-export default Principal;
+
+    return (
+
+<div className='body' > 
+    <Header />
+    <Footer />
+   
+        </div>
+        
+    )
+}    
+
+export default Home
