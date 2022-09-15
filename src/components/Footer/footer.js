@@ -5,7 +5,7 @@ import { FiMail, FiFacebook,FiInstagram } from 'react-icons/fi'
 import { IoLogoWhatsapp } from 'react-icons/io'
 //import {GrRestaurant} from 'react-icons/gr'
 //import { Link } from 'react-scroll'
-import '../footer/footerStyles.css'
+import './footerStyles.css'
 
 const Footer = () => {
     return (
@@ -39,32 +39,27 @@ const Footer = () => {
                         <p>Marcyelen</p>
                     </div>
                     <form>
+                        <div className='redes'>
                         <h3>Redes sociais</h3>
-                        {/* //<input type="whatsapp" placeholder='Tire suas dúvidas' />
-                        <IoLogoWhatsapp className='social-icon' /> */}
-                        <div className="social-group">
-                            <div>
-                            <FiInstagram className='social-icon' />
-                            <h4 className='redessociais'>Instagram</h4>
-                            </div>
-                            <div>
-                            <FiFacebook className='social-icon' />
-                            <h4 className='redessociais' >Facebook</h4>
-                            </div>
-                            <div>
-                            <IoLogoWhatsapp className='social-icon' />
-                            <h4 className='redessociais' >Whatsapp</h4>
-                            </div>
-                            <div>
-                            <FiMail className='mail-icon' />
-                            <h4 className='redessociais' >E-Mail</h4>
-                            </div>
-                            
-                            
-                           
-                           
-                          
                         
+                        <div className="social-group">
+                            <div className='icon-texto'>
+                            <FiInstagram className='social-icon' />
+                            {/* <h4 className='redessociais'>Instagram</h4> */}
+                            </div >
+                            <div className='icon-texto'>
+                            <FiFacebook className='social-icon' />
+                            {/* <h4 className='redessociais' >Facebook</h4> */}
+                            </div>
+                            <div className='icon-texto'>
+                            <IoLogoWhatsapp className='social-icon' />
+                            {/* <h4 className='redessociais' >Whatsapp</h4> */}
+                            </div>
+                            <div className='icon-texto'>
+                            <FiMail className='mail-icon' />
+                            {/* <h4 className='redessociais' >E-Mail</h4> */}
+                            </div>
+                        </div>
                         </div>
                     </form>
                 </div>
