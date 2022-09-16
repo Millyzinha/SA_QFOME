@@ -1,0 +1,35 @@
+.container{
+    background-color: white;   
+}
+
+.title{
+    font-family: cursive;
+    font-size: 15px;
+    color: black;
+    
+}
+
+.dad-icons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;    
+}
+
+.icon-qsomos{
+    background-color: white;
+    color: #ED7E07;
+    width: 200px;
+    height: 100px;
+}
+
+.icon-equipe{
+    background-color: white;
+    color: #ED7E07;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
+

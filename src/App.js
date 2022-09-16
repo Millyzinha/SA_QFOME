@@ -23,7 +23,7 @@ const App = () => {
          <Route element={<Jantar />} path={"/Jantar"} />
          <Route element={<Eventos />} path={"/Eventos"} />
          <Route element={<Comunicados />} path={"/Comunicados"} />
-         <Route element={<QuemSomos />} path={"/QuemSomos"} />
+         <Route element={<QuemSomos />} path={"/quemsomos"} />
        </Routes>
      </BrowserRouter>
     </div>
