@@ -2,10 +2,13 @@
     background-color: white;   
 }
 
+
+
 .title{
-    font-family: cursive;
+    font-family: Cambria;
     font-size: 15px;
     color: black;
+    
     
 }
 
@@ -27,6 +30,16 @@
     color: #ED7E07;
     width: 200px;
     height: 100px;
+}
+
+.h2-empresa{
+    font-family: Cambria;
+    color: black;    
+}
+
+.h2-equipe{
+    font-family: Cambria;
+    color: black;    
 }
 
 
