@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 const Menu = () => {
+
+
     return (
         <nav>
             <ul>
@@ -15,6 +17,7 @@ const Menu = () => {
                 <li><Link to= "/QuemSomos">Quem Somos</Link></li>
             </ul>
         </nav>
+        
     )
 }
 

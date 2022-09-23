@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Principal from "./components/Principal";
@@ -17,7 +20,10 @@ import Login from "./components/Login/login";
 const App = () => {
   return (<div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322
      <BrowserRouter>
        <Routes>
          <Route element={<Principal />} path={"/"} exact />
@@ -36,6 +42,7 @@ const App = () => {
     </div>
   );
 };
+<<<<<<< HEAD
 export default App;
 =======
 import React from "react";
@@ -77,3 +84,6 @@ const App = () => {
 };
 export default App;
 >>>>>>> fd9b22b134d11fe1d2cbbf1d9b4a3093c462188d
+=======
+export default App;
+>>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322

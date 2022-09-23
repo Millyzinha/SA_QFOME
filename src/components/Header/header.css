@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     border-bottom: 4px solid #ED7E07;
     background-color: black;
-    z-index: 99;
+    
 }
 .esquerda{
     display: flex;
