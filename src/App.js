@@ -26,14 +26,10 @@ const App = () => {
          <Route element={<Jantar />} path={"/Jantar"} />
          <Route element={<Eventos />} path={"/Eventos"} />
          <Route element={<Comunicados />} path={"/Comunicados"} />
-<<<<<<< HEAD
-         <Route element={<QuemSomos />} path={"/quemsomos"} />
-=======
          <Route element={<QuemSomos />} path={"/QuemSomos"} />
          <Route element={<Admin />} path={"/Admin"} />
          <Route element={<Cadastro />} path={"/Cadastro"} />
          <Route element={<Login />} path={"/Login"} />
->>>>>>> 140df93d71070fa89a668f88cf17bd3dde01973e
        </Routes>
      </BrowserRouter>
     </div>

@@ -9,9 +9,8 @@ import Mesa from '../QuemSomos/imgmesa.jpg'
 const QuemSomos = () => {
     return (
         <div className='container'>
+            <img src={Mesa} className='h-mesa' />
             <div className='title'>
-                
-                    <img src={Mesa} className='h-mesa' />
                 
                 <h1>Quem Somos</h1>
             </div>
