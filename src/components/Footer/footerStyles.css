@@ -1,9 +1,9 @@
 .footer {
     width: 100%;
-    height: 80vh;
+    height: altu;
     position: relative;
     background: #000000;
-    
+    margin: 0;
 }
 
 svg  {
@@ -19,24 +19,31 @@ svg  {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #000000;
+
 }
 .social-group{
     display:  flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     
 }
 
 .redes{
     justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .footer .top {
-    width: 100%;
+    width: 150%;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     color: #fff;
+    background-color: #fff;
+    height: 400px;
 }
 .footer .col-container {
     display: grid;
@@ -45,7 +52,7 @@ svg  {
     width: 100%;
 }
 .footer h3 {
-    margin: 1rem 0 2rem 0;
+    
     text-transform: uppercase;
     color: #ED7E07;
     padding-left: 100px;
@@ -54,17 +61,22 @@ svg  {
 
 .footer p {
     margin: .5rem 0;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding-left: 100px;
 }
 .redessociais {
         color: #fff;
      
     }
-.footer form {
+    .social-icons{
+        margin-left: 10px;
+    }
+.form {
     width: 100%;
-    margin-bottom: .6rem;
+    display: flex;
+    justify-content: center;
     position: relative;
+    /* justify-content: center; */
 }
 @media screen and (max-width: 940px) {
     .footer {
