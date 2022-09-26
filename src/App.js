@@ -1,7 +1,43 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322
+// import React from "react";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Principal from "./components/Principal";
+// import Almoço from "./components/Almoco/almoco";
+// import Doces from "./components/Doces/doces"
+// import Comunicados from "./components/Comunicado/comunicados";
+// import Eventos from "./components/Eventos/evetos";
+// import Jantar from "./components/Jantar/jantar";
+// import QuemSomos from "./components/QuemSomos/quemsomos";
+// import Salgados from "./components/Salgados/salgado";
+// import { FiMenu } from 'react-icons/fi';
+// import Admin from "./components/Admin/admin";
+// import Cadastro from "./components/Cadastro/cadastro";
+// import Login from "./components/Login/login";
+
+// const App = () => {
+//   return (<div>
+
+// z
+
+// =======
+// >>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322
+//      <BrowserRouter>
+//        <Routes>
+//          <Route element={<Principal />} path={"/"} exact />
+//          <Route element={<Doces />} path={"/Doces"} />
+//          <Route element={<Salgados />} path={"/Salgados"} />
+//          <Route element={<Almoço />} path={"/Almoco"} />
+//          <Route element={<Jantar />} path={"/Jantar"} />
+//          <Route element={<Eventos />} path={"/Eventos"} />
+//          <Route element={<Comunicados />} path={"/Comunicados"} />
+//          <Route element={<QuemSomos />} path={"/QuemSomos"} />
+//          <Route element={<Admin />} path={"/Admin"} />
+//          <Route element={<Cadastro />} path={"/Cadastro"} />
+//          <Route element={<Login />} path={"/Login"} />
+//        </Routes>
+//      </BrowserRouter>
+//     </div>
+//   );
+// };
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Principal from "./components/Principal";
@@ -20,49 +56,6 @@ import Login from "./components/Login/login";
 const App = () => {
   return (<div>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322
-     <BrowserRouter>
-       <Routes>
-         <Route element={<Principal />} path={"/"} exact />
-         <Route element={<Doces />} path={"/Doces"} />
-         <Route element={<Salgados />} path={"/Salgados"} />
-         <Route element={<Almoço />} path={"/Almoco"} />
-         <Route element={<Jantar />} path={"/Jantar"} />
-         <Route element={<Eventos />} path={"/Eventos"} />
-         <Route element={<Comunicados />} path={"/Comunicados"} />
-         <Route element={<QuemSomos />} path={"/QuemSomos"} />
-         <Route element={<Admin />} path={"/Admin"} />
-         <Route element={<Cadastro />} path={"/Cadastro"} />
-         <Route element={<Login />} path={"/Login"} />
-       </Routes>
-     </BrowserRouter>
-    </div>
-  );
-};
-<<<<<<< HEAD
-export default App;
-=======
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Principal from "./components/Principal";
-import Almoço from "./components/Almoco/almoco";
-import Doces from "./components/Doces/doces"
-import Comunicados from "./components/Comunicado/comunicados";
-import Eventos from "./components/Eventos/evetos";
-import Jantar from "./components/Jantar/jantar";
-import QuemSomos from "./components/QuemSomos/quemsomos";
-import Salgados from "./components/Salgados/salgado";
-import { FiMenu } from 'react-icons/fi';
-import Admin from "./components/Admin/admin";
-import Cadastro from "./components/Cadastro/cadastro";
-import Login from "./components/Login/login";
-
-const App = () => {
-  return (<div>
-
 
      <BrowserRouter>
        <Routes>
@@ -83,7 +76,3 @@ const App = () => {
   );
 };
 export default App;
->>>>>>> fd9b22b134d11fe1d2cbbf1d9b4a3093c462188d
-=======
-export default App;
->>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322
