@@ -1,9 +1,9 @@
 import React from 'react'
-import { SiPug } from 'react-icons/si'
+// import { SiPug } from 'react-icons/si'
 import { } from "react-icons"
 import { FiMail, FiFacebook,FiInstagram } from 'react-icons/fi'
 import { IoLogoWhatsapp } from 'react-icons/io'
-import {GrRestaurant} from 'react-icons/gr'
+// import {GrRestaurant} from 'react-icons/gr'
 // import { Link } from 'react-scroll'
 import './footerStyles.css'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaBars, FaUserAlt, FaCartPlus } from 'react-icons/fa'
-import '../Header/header.css'
+import './header.css'
 import Logo from '../Header/logo2.png'
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
                 
                     </div>
                     <div className='logo'>
-                    <img src={Logo} className='h-logo'/>
+                    <img src={Logo} alt="LogoCircular" className='h-logo'/>
                 </div>
                 <div className='direita'>
                 < FaUserAlt className='user' />

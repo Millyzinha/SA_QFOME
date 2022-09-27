@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import './Cadastro.css'
+import "./cadastro.css"
 import registration from '../Cadastro/cadastroImg.jpg'
 
 const Cadastro = () => {
@@ -8,7 +8,7 @@ const Cadastro = () => {
         <div className="body">
             <div className="black-box">
                 <div>
-                    <img src={registration} className="cadastrar-se" />
+                    <img src={registration} alt="GcadastroImg.jpg" className="cadastrar-se" />
                 </div>
                 <div className="box-input">
                     <div className="cadastro">
