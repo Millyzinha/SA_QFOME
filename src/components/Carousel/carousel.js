@@ -73,5 +73,8 @@ function IndividualIntervalsExample() {
     </Carousel>
   );
 }
+      
+
+
 
 export default IndividualIntervalsExample;
