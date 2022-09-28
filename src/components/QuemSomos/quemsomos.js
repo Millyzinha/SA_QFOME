@@ -1,6 +1,6 @@
 import React from 'react'
 // import Menu from '../Indexhome/menu'
-import '../QuemSomos/QuemSomos.css'
+import '../QuemSomos/quemSomos.css'
 import { RiSuitcaseFill } from 'react-icons/ri'
 import { RiTeamFill } from 'react-icons/ri'
 import Mesa from '../QuemSomos/imgmesa.jpg'

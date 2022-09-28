@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import "./cadastro.css"
+import "./cadastroStyle.css"
 import registration from '../Cadastro/cadastroImg.jpg'
 
 const Cadastro = () => {
@@ -11,8 +11,9 @@ const Cadastro = () => {
                     <img src={registration} alt="GcadastroImg.jpg" className="cadastrar-se" />
                 </div>
                 <div className="box-input">
+
                     <div className="cadastro">
-                        <h1>Cadastrar-se</h1>
+                    <h1 className="nome-cadastro">Cadastrar-se</h1>
                         <div className="input-cadastro">
                             <input type="text"
                                 placeholder="Nome de Usuário"
@@ -35,6 +36,8 @@ const Cadastro = () => {
                         </div>
                         <p className="link-login">Já possui uma conta?<Link to='/Login'>Login</Link></p>
                     </div>
+
+
                 </div>
             </div>
 
