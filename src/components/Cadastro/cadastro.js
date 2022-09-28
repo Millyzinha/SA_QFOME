@@ -36,7 +36,6 @@ const Cadastro = () => {
                         <p className="link-login">Já possui uma conta?<Link to='/Login'>Login</Link></p>
                     </div>
                 </div>
-
             </div>
 
         </div>

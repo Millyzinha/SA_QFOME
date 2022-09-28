@@ -9,9 +9,9 @@ const Home = () => {
     return (
 
 <div className='body' > 
-    {/* <Header /> */}
+    <Header />
     <Menu />
-    {/* <Footer /> */}
+    <Footer />
    
         </div>
         
