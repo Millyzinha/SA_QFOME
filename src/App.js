@@ -1,57 +1,18 @@
-// import React from "react";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import Principal from "./components/Principal";
-// import Almoço from "./components/Almoco/almoco";
-// import Doces from "./components/Doces/doces"
-// import Comunicados from "./components/Comunicado/comunicados";
-// import Eventos from "./components/Eventos/evetos";
-// import Jantar from "./components/Jantar/jantar";
-// import QuemSomos from "./components/QuemSomos/quemsomos";
-// import Salgados from "./components/Salgados/salgado";
-// import { FiMenu } from 'react-icons/fi';
-// import Admin from "./components/Admin/admin";
-// import Cadastro from "./components/Cadastro/cadastro";
-// import Login from "./components/Login/login";
 
-// const App = () => {
-//   return (<div>
-
-// z
-
-// =======
-// >>>>>>> bf9ef1f7812dc00fd9ce043cdd29e2b58ad0c322
-//      <BrowserRouter>
-//        <Routes>
-//          <Route element={<Principal />} path={"/"} exact />
-//          <Route element={<Doces />} path={"/Doces"} />
-//          <Route element={<Salgados />} path={"/Salgados"} />
-//          <Route element={<Almoço />} path={"/Almoco"} />
-//          <Route element={<Jantar />} path={"/Jantar"} />
-//          <Route element={<Eventos />} path={"/Eventos"} />
-//          <Route element={<Comunicados />} path={"/Comunicados"} />
-//          <Route element={<QuemSomos />} path={"/QuemSomos"} />
-//          <Route element={<Admin />} path={"/Admin"} />
-//          <Route element={<Cadastro />} path={"/Cadastro"} />
-//          <Route element={<Login />} path={"/Login"} />
-//        </Routes>
-//      </BrowserRouter>
-//     </div>
-//   );
-// };
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Principal from "./components/Principal";
-import Almoço from "./components/Almoco/almoco";
+import Principal from "./components/Principal/index"
+import Almoco from "./components/Almoco/almoco"
 import Doces from "./components/Doces/doces"
-import Comunicados from "./components/Comunicado/comunicados";
-import Eventos from "./components/Eventos/evetos";
-import Jantar from "./components/Jantar/jantar";
-import QuemSomos from "./components/QuemSomos/quemsomos";
-import Salgados from "./components/Salgados/salgado";
-import { FiMenu } from 'react-icons/fi';
-import Admin from "./components/Admin/admin";
-import Cadastro from "./components/Cadastro/cadastro";
-import Login from "./components/Login/login";
+import Comunicados from "./components/Comunicado/comunicados"
+import Eventos from "./components/Eventos/eventos"
+import Jantar from "./components/Jantar/jantar"
+import QuemSomos from "./components/QuemSomos/quemsomos"
+import Salgados from "./components/Salgados/salgado"
+// import { FiMenu } from 'react-icons/fi';
+import Admin from "./components/Admin/admin"
+import Cadastro from "./components/Cadastro/cadastro"
+import Login from "./components/Login/login"
 
 const App = () => {
   return (<div>
@@ -60,16 +21,16 @@ const App = () => {
      <BrowserRouter>
        <Routes>
          <Route element={<Principal />} path={"/"} exact />
-         <Route element={<Doces />} path={"/Doces"} />
-         <Route element={<Salgados />} path={"/Salgados"} />
-         <Route element={<Almoço />} path={"/Almoco"} />
-         <Route element={<Jantar />} path={"/Jantar"} />
-         <Route element={<Eventos />} path={"/Eventos"} />
-         <Route element={<Comunicados />} path={"/Comunicados"} />
-         <Route element={<QuemSomos />} path={"/QuemSomos"} />
-         <Route element={<Admin />} path={"/Admin"} />
-         <Route element={<Cadastro />} path={"/Cadastro"} />
-         <Route element={<Login />} path={"/Login"} />
+         <Route element={<Doces />} path={"/doces"} />
+         <Route element={<Salgados />} path={"/salgados"} />
+         <Route element={<Almoco />} path={"/almoco"} />
+         <Route element={<Jantar />} path={"/jantar"} />
+         <Route element={<Eventos />} path={"/eventos"} />
+         <Route element={<Comunicados />} path={"/comunicados"} />
+         <Route element={<QuemSomos />} path={"/quemSomos"} />
+         <Route element={<Admin />} path={"/admin"} />
+         <Route element={<Cadastro />} path={"/cadastro"} />
+         <Route element={<Login />} path={"/login"} />
        </Routes>
      </BrowserRouter>
     </div>
