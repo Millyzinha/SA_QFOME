@@ -1,8 +1,82 @@
-.body{
-    width: 100%;
-    height: 100vh;
+.body {
+    background-color: rgb(248, 240, 240);
 }
 
-.black-box{
-    
+.black-box {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    align-items: stretch;
+}
+
+.box-input {
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 #272727;
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    padding: 40px;
+    margin-left: 150px;
+    border-radius: 10%;
+
+    /* border: 50px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.cadastro {
+    font-family: Cambria;
+    font-size: 15px;
+    width: 300px;
+    margin-top: 80px;
+    height: 240px;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+
+
+}
+
+.cadastrar-se {
+    width: 100%;
+    height: 100%;
+}
+
+.input-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+    gap: 40px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.input-cadastro input {
+    background-color: black;
+    border-radius: 20px;
+    padding: 0.5px;
+    height: 150%;
+    width: 400%;
+    background-color: transparent;
+    border: none;
+    line-height: 1.2;
+
+
+}
+
+.botao-cadastro {
+    background-color: #ED7E07;
+    border-radius: 20px;
+    border: #ED7E07;
+    padding: 10px;
+    color: white;
+
+}
+
+.link-login {
+    font-family: Cambria;
+    height: 50%;
+    height: 50%;
 }

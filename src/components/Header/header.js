@@ -1,8 +1,7 @@
 import React from 'react'
-import Menu from '../Indexhome/menu'
 import { FaBars, FaUserAlt, FaCartPlus } from 'react-icons/fa'
 import './header.css'
-import Logo from './logo2.png'
+import Logo from '../Header/logo2.png'
 
 const Header = () => {
    
@@ -10,26 +9,20 @@ const Header = () => {
     return (
 
         
-        <div className='navbar'>
+        <div className='navbar2'>
             <div className='esquerda'>
                 <FaBars className='menu'/>
-                <h1 className='title'></h1>
+                
                 
                     </div>
                     <div className='logo'>
-                    <img src={Logo} className='h-logo'/>
+                    <img src={Logo} alt="LogoCircular" className='h-logo'/>
                 </div>
                 <div className='direita'>
                 < FaUserAlt className='user' />
                 < FaCartPlus className='carrinho' />
                 </div>
-                </div>
-                
-                
-              
-            
-                
-        
+                </div> 
     )
 }    
 
