@@ -9,35 +9,36 @@
     width: 100vw;
     height: 100vh;
     align-items: stretch;
+    text-align: center;
 }
 
 .box-input {
-    width: 400px;
-    height: 400px;
-    margin-top: 80px;
-    background: rgba(255, 255, 255, 0.35);
-    box-shadow: 0 8px 32px 0 #272727;
+    width: 50%;
+    height: 100%;
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur(13.5px);
-    padding: 40px;
-    margin-left: 150px;
     border-radius: 10%;
-
-    /* border: 50px solid rgba( 255, 255, 255, 0.18 ); */
-}
-
-.cadastro {
-    font-family: Cambria;
-    font-size: 15px;
-    width: 300px;
-    margin-top: 80px;
-    height: 240px;
     justify-content: center;
     display: flex;
-    border-radius: 5px;
+    align-items: center;
+}
+
+
+.cadastro {
+    cursor: pointer;
+    font-family: Cambria;
+    font-size: 20px;
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    height: 65%;
+    justify-content: center;
+    display: flex;
     flex-direction: column;
-
-
+    text-align: center;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 #817f7f;
+    
 }
 
 .cadastrar-se {
@@ -45,34 +46,40 @@
     height: 100%;
 }
 
-.input-cadastro {
+.input-cadastro { 
     display: flex;
     flex-direction: column;
-    width: 130%;
+    height: 400%;
+    width: 100%;
     gap: 40px;
     background-color: transparent;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 .input-cadastro input {
-    background-color: black;
+    font-family: Cambria;
     border-radius: 20px;
     padding: 0.5px;
-    height: 150%;
-    width: 400%;
+    height: 90%;
+    width: 80%;
+    border: 0;
     background-color: transparent;
     border: none;
-    line-height: 1.2;
-
-
+    line-height: 1.5; 
 }
 
 .botao-cadastro {
+    font-family: Cambria;
     background-color: #ED7E07;
     border-radius: 20px;
-    border: #ED7E07;
-    padding: 10px;
+    border: none;
+    padding: 15px;
     color: white;
-
+    cursor: pointer;
+    
 }
 
 .link-login {

@@ -10,13 +10,9 @@ const Home = () => {
 
 <div className='body' > 
     <Header />
-<<<<<<< HEAD
     <div>
     <Menu />
     </div>
-=======
-    <Menu />
->>>>>>> fb0327b9a8090134ead8999866d15259d34d4cba
     <Footer />
    
         </div>

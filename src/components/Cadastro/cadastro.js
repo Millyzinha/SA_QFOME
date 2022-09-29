@@ -1,8 +1,9 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
-import './cadastro.css'
+import "./cadastro.css"
+import registration from '../Cadastro/cadastroImg.jpg'
 
-const Cadastro = () =>{
+const Cadastro = () => {
 
     const [username, setUsername] = useState('');
     const [name, setName] = useState('');
@@ -11,7 +12,7 @@ const Cadastro = () =>{
 
     const postUser = async () => {  
 
-        if (username && name && email && password != "") {
+        if (username && name && email && password !== "") {
             try {
                 const requestOptions = {
                     method: 'POST',
@@ -37,31 +38,41 @@ const Cadastro = () =>{
           alert("preencha todos os campos")
             }
         }
-  
-
-    return(
+    return (
         <div className="body">
             <div className="black-box">
-                <div className="input-cadastro">
-                <input type="text"
-                placeholder="Nome de Usuário" 
-                />
-                <input type="text" 
-                placeholder="E-mail"
-                />
-                <input type="text" 
-                placeholder="Senha"
-                />
-                <input type="text" 
-                placeholder="Confirmar Senha"
-                />
+                <div>
+                    <img src={registration} alt="GcadastroImg.jpg" className="cadastrar-se" />
                 </div>
-                <div className="botao-cadastro">
-                <button  onClick={postUser} className="login-form-btn"> Cadastre-se </button>
+                <div className="box-input">
+
+                    <div className="cadastro">
+                    <h1 className="nome-cadastro">Cadastrar-se</h1>
+                        <div className="input-cadastro">
+                            <input type="text"
+                                placeholder="Nome de Usuário"
+                            />
+                            <input type="text"
+                                placeholder="E-mail"
+                            />
+                            <input type="text"
+                                placeholder="Senha"
+                            />
+                            <input type="text"
+                                placeholder="Confirmar Senha"
+                            />
+                        </div>
+                        <br></br>
+                        <div>
+                        <button  onClick={postUser} className="botao-cadastro"> Cadastre-se </button>
+                        </div>
+                        <p className="link-login">Já possui uma conta? <Link to='/Login'>Login</Link></p>
+                    </div>
+
+
                 </div>
-                <p>Já possui uma conta?<Link to= '/Login'>Login</Link></p>
             </div>
-            
+
         </div>
     )
 }
