@@ -10,9 +10,11 @@ const Home = () => {
 
 <div className='body' > 
     <Header />
+
+    
+
     <Footer />
-   
-        </div>
+    </div>
         
     )
 }    
