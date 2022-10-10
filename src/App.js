@@ -22,6 +22,7 @@ const App = () => {
 
      <BrowserRouter>
        <Routes>
+        
          <Route element={<Principal />} path={"/"} exact />
          <Route element={<Doces />} path={"/doces"} />
          <Route element={<Salgados />} path={"/salgados"} />
@@ -35,7 +36,7 @@ const App = () => {
          <Route element={<Login />} path={"/login"} />
        </Routes>
      </BrowserRouter>
-   
+
   );
 };
 export default App;

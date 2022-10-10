@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header/header'
 import Footer from '../Footer/footer'
-
+import Carousel from "../Carrossel/carrossel.js"
 
 const Home = () => {
 
@@ -11,7 +11,7 @@ const Home = () => {
 <div className='body' > 
     <Header />
 
-    
+    <Carousel/>
 
     <Footer />
     </div>

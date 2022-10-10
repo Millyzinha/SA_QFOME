@@ -13,10 +13,6 @@ const Header = () => {
     const handleNav = () => setNav(!nav)
 
     return (
-
-
-
-            
     
             <div  className='navbar2'>
     

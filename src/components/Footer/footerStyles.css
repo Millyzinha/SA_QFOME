@@ -46,7 +46,7 @@ svg  {
     height: 400px;
 }
 .footer .col-container {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     padding: 1rem;
     width: 100%;
