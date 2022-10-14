@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
-    height: altu;
-    position: relative;
+    height: auto;
+    position: fixed;
     background: #000000;
     margin: 0;
 }
@@ -36,15 +36,7 @@ svg  {
     flex-direction: column;
     align-items: center;
 }
-.footer .top {
-    width: 150%;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    background-color: #fff;
-    height: 400px;
-}
+
 .footer .col-container {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
