@@ -2,6 +2,13 @@
     background-color: white;
 }
 
+.h-mesa{
+    height: 300px;
+    width: 500px;
+   
+
+}
+
 .title {
     font-family: Cambria;
     font-size: 15px;

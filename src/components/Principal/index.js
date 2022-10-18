@@ -12,6 +12,14 @@ const Home = () => {
     <Header />
 
     <Carousel/>
+    <div className='divMid'>
+        <p>Vai te fuder Luis</p>
+        <p>Vai te fuder Luis</p>
+        <p>Vai te fuder Luis</p>
+        <p>Vai te fuder Luis</p>
+        <p>Vai te fuder Luis</p>
+        
+    </div>
 
     <Footer />
     </div>

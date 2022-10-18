@@ -1,8 +1,9 @@
 import React from 'react'
-import '../QuemSomos/QuemSomos.css'
 import { RiSuitcaseFill } from 'react-icons/ri'
 import { RiTeamFill } from 'react-icons/ri'
 import Mesa from '../QuemSomos/imgmesa.jpg'
+import '../QuemSomos/quemSomos.css' 
+
 
 
 const QuemSomos = () => {
