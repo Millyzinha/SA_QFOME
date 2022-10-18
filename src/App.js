@@ -9,13 +9,15 @@ import Eventos from "./components/Eventos/eventos"
 import Jantar from "./components/Jantar/jantar"
 import QuemSomos from "./components/QuemSomos/quemsomos"
 import Salgados from "./components/Salgados/salgado"
-// import { FiMenu } from 'react-icons/fi';
 import Admin from "./components/Admin/admin"
 import Cadastro from "./components/Cadastro/cadastro"
 import Login from "./components/Login/login"
 
+
 const App = () => {
-  return (<div>
+  return (
+
+    
 
 
      <BrowserRouter>
@@ -33,7 +35,7 @@ const App = () => {
          <Route element={<Login />} path={"/login"} />
        </Routes>
      </BrowserRouter>
-    </div>
+   
   );
 };
 export default App;

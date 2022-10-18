@@ -1,28 +1,31 @@
-.body {
-    background-color: rgb(248, 240, 240);
+.cadastrar-se {
+    width: 50%;
+    height: 100%;
 }
 
-.black-box {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    align-items: stretch;
-    text-align: center;
+.imgCadastro{
+    width:100% 
+    
 }
 
 .box-input {
+    background-color: rgb(255, 255, 255) ;
     width: 50%;
     height: 100%;
     backdrop-filter: blur(11.5px);
-    -webkit-backdrop-filter: blur(13.5px);
-    border-radius: 10%;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
+
+.input-Cconta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    color: rgb(235, 143, 45);
+}
 
 .cadastro {
     cursor: pointer;
@@ -30,10 +33,11 @@
     font-size: 20px;
     width: 60%;
     background-color: #ffffff;
-    border-radius: 50px;
+    border-radius: 15px;
     height: 65%;
     justify-content: center;
     display: flex;
+    gap: 5%;
     flex-direction: column;
     text-align: center;
     background: rgba(255, 255, 255, 0.35);
@@ -41,49 +45,111 @@
     
 }
 
-.cadastrar-se {
+.black-box {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    align-items: stretch;
+    text-align: center;
 }
 
 .input-cadastro { 
-    display: flex;
     flex-direction: column;
-    height: 400%;
-    width: 100%;
-    gap: 40px;
     background-color: transparent;
-    /* border-bottom: 1px solid black; */
+    border: 0;
     justify-content: center;
     align-items: center;
-    
-    
-}
-.input-cadastro input {
-    font-family: Cambria;
-    border-radius: 20px;
-    padding: 0.5px;
-    height: 90%;
-    width: 80%;
-    border: 0;
+        
+} 
+
+.input-email {
+    flex-direction: column;
     background-color: transparent;
-    border: none;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.input-senha{
+    flex-direction: column;
+    background-color: transparent;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.input-ConSenha{
+    flex-direction: column;
+    background-color: transparent;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.input-cadastro input {
+    padding: 0.8px;
+    height: 100%;
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid #817f7f;
+    background-color: transparent;
     line-height: 1.5; 
 }
 
-.botao-cadastro {
-    font-family: Cambria;
-    background-color: #ED7E07;
-    border-radius: 20px;
+.input-email input{
+    padding: 0.8px;
+    height: 100%;
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid #817f7f;
+    background-color: transparent;
+    line-height: 1.5
+}
+
+input:focus{
+    outline: 0;
+}
+
+.input-senha input{
+    padding: 0.8px;
+    height: 100%;
+    width: 70%;
     border: none;
-    padding: 15px;
+    border-bottom: 1px solid #817f7f;
+    background-color: transparent;
+    line-height: 1.5
+}
+
+.input-ConSenha input{
+    padding: 0.8px;
+    height: 100%;
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid #817f7f;
+    background-color: transparent;
+    line-height: 1.5
+}
+
+ .botao-cadastro {
+     font-family: cursive;
+    background-color: #ED7E07;
+    width: 30%;
+    height: 100%;
+    /* border-radius: 10%; */
+    border: none;
+    padding: 10px;
     color: white;
     cursor: pointer;
     
-}
+} 
 
 .link-login {
-    font-family: Cambria;
     height: 50%;
     height: 50%;
+    
 }

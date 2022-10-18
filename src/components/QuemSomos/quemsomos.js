@@ -1,9 +1,9 @@
 import React from 'react'
-// import Menu from '../Indexhome/menu'
-import '../QuemSomos/quemSomos.css'
 import { RiSuitcaseFill } from 'react-icons/ri'
 import { RiTeamFill } from 'react-icons/ri'
 import Mesa from '../QuemSomos/imgmesa.jpg'
+import '../QuemSomos/quemSomos.css' 
+
 
 
 const QuemSomos = () => {
@@ -28,7 +28,7 @@ const QuemSomos = () => {
                     <p>Somos um grupo com quatro colegas......</p>
                 </div>
             </div>
-            {/* <Menu/> */}
+          
         </div>
     )
 }

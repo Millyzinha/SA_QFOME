@@ -1,20 +1,47 @@
-import React from 'react'
-import { FaBars, FaUserAlt, FaCartPlus } from 'react-icons/fa'
+import React, { useState } from 'react'
+import { FaUserAlt, FaCartPlus, FaBars, FaTimes} from 'react-icons/fa'
+import { Link } from "react-router-dom"
+import Logo from "../Header/logo.png"
 import './header.css'
-import Logo from '../Header/logo2.png'
+
+
 
 const Header = () => {
-   
+
+
+    const [nav, setNav] = useState(false)
+    const handleNav = () => setNav(!nav)
 
     return (
 
-        
-        <div className='navbar2'>
+
+
+            
+    
+            <div  className='navbar2'>
+    
             <div className='esquerda'>
-                <FaBars className='menu'/>
-                
-                
-                    </div>
+        
+    <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
+
+
+     <Link className='home' to={'/'}> Home</Link>
+     <Link className='doces' to= "/Doces">Doces</Link>
+     <Link className='salgados' to= "/Salgados">Salgados</Link>
+     <Link className='almoco' to= "/Almoco">Almoço</Link>
+     <Link className='jantar' to= "/Jantar">Jantar</Link>
+     <Link className='eventos' to= "/Eventos">Eventos</Link>
+     <Link className='comunicados' to= "/Comunicados">Comunicados</Link>
+     <Link className='qsomos' to= "/QuemSomos">Quem Somos</Link>
+    </ul>
+
+   
+   
+    <div className="hamburger" onClick={handleNav}>
+        {!nav ? (<FaBars onclick={handleNav} className='icon' />) : (<FaTimes className='icon' />)}
+    </div>
+    </div>
+                          
                     <div className='logo'>
                     <img src={Logo} alt="LogoCircular" className='h-logo'/>
                 </div>
@@ -22,7 +49,7 @@ const Header = () => {
                 < FaUserAlt className='user' />
                 < FaCartPlus className='carrinho' />
                 </div>
-                </div> 
+                </div>
     )
 }    
 
