@@ -34,7 +34,7 @@ const Header = () => {
    
    
     <div className="hamburger" onClick={handleNav}>
-        {!nav ? (<FaBars onclick={handleNav} className='icon' />) : (<FaTimes className='icon' />)}
+        {!nav ? (<FaBars onClick={handleNav} className='icon' />) : (<FaTimes className='icon' />)}
     </div>
     </div>
                           

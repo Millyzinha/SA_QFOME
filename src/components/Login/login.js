@@ -8,16 +8,19 @@ import Logar from "../Login/loginImg.jpg"
 const Login = () => {
     return (
         <div className="body">
-            <div className="black-box">
-                <div className="login-img">
+            <div className="every-input">                
+            <div className="login-img">
                 <img src={Logar} alt="loginImg.jpg" className="img-login" />
-                </div>
-                <div className="login-usuario">
+                </div>  
+            <div className="login-input">
+            
+                    <h1 className="h1-login">Faça seu Login</h1>
+                    <div className="login-usuario">
                     <input type="text"
                         placeholder="Nome de usuário"
-                    />
-                </div>
-                <div className="login-senha">
+                    /> 
+                    </div>               
+                    <div className="login-senha">
                     <input type="text"
                         placeholder="Senha"
                     />
@@ -26,8 +29,12 @@ const Login = () => {
                     <button type="submit">
                         Entrar
                     </button>
-                </div>
+                </div>                
                 <p>Não possui uma conta?<Link to='/Cadastro'>Cadastre-se</Link></p>
+
+                </div>
+
+                
             </div>
 
         </div>
