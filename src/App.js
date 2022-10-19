@@ -12,12 +12,11 @@ import Salgados from "./components/Salgados/salgado"
 import Admin from "./components/Admin/admin"
 import Cadastro from "./components/Cadastro/cadastro"
 import Login from "./components/Login/login"
-
+import Perfil from "./components/Perfil/perfil"
+import Carrinho from "./components/Carrinho/carrinho"
 
 const App = () => {
   return (
-
-    
 
 
      <BrowserRouter>
@@ -34,6 +33,9 @@ const App = () => {
          <Route element={<Admin />} path={"/admin"} />
          <Route element={<Cadastro />} path={"/cadastro"} />
          <Route element={<Login />} path={"/login"} />
+         <Route element={<Perfil/>} path={'/perfil/:id'}/>
+         <Route element={<Carrinho/>} path={'/Carrinho/:id'}/>
+
        </Routes>
      </BrowserRouter>
 

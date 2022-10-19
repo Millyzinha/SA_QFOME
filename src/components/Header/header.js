@@ -34,7 +34,7 @@ const Header = () => {
    
    
     <div className="hamburger" onClick={handleNav}>
-        {!nav ? (<FaBars onclick={handleNav} className='icon' />) : (<FaTimes className='icon' />)}
+        {!nav ? (<FaBars onClick={handleNav} className='icon' />) : (<FaTimes className='icon' />)}
     </div>
     </div>
                           
@@ -42,8 +42,8 @@ const Header = () => {
                     <img src={Logo} alt="LogoCircular" className='h-logo'/>
                 </div>
                 <div className='direita'>
-                < FaUserAlt className='user' />
-                < FaCartPlus className='carrinho' />
+                < FaUserAlt className='user' onClick={() => window.location.href = `/perfil/2`} />
+                < FaCartPlus className='carrinho' onClick={() => window.location.href = `/carrinho/1`} />
                 </div>
                 </div>
     )
