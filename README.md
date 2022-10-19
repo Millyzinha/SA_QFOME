@@ -8,6 +8,6 @@
 
 5. git commit -m "nome do commit"
 
-    {git push (enviar atualizações)
+    {git push -u origin main (enviar atualizações)
 6.  {
-    {git pull (receber atualizações)
+    {git pull origin main (receber atualizações)

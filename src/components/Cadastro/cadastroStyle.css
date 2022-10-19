@@ -20,6 +20,7 @@
 
 
 .input-Cconta{
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +30,7 @@
 
 .cadastro {
     cursor: pointer;
-    font-family: Cambria;
+    font-family: cursive;
     font-size: 20px;
     width: 60%;
     background-color: #ffffff;
@@ -149,6 +150,7 @@ input:focus{
 } 
 
 .link-login {
+    font-family: cursive;
     height: 50%;
     height: 50%;
     
