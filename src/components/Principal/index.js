@@ -13,19 +13,10 @@ const Home = () => {
 
     <Carousel/>
     <div className='divMid'>
-<<<<<<< HEAD
-        <p>Vai te fuder Luis</p>
-        <p>Vafomee fuder Luis</p>
-        <p>Vai te fuder Luis</p>
-        <p>Vai te fuder Luis</p>
-        <p>Vai te fuder Luis</p>
-        
-=======
         <p>Comentários</p>
         <p>Comentários</p>
         <p>Comentários</p>
         <p>Comentários</p>
->>>>>>> c5efa38df5ae4a4382758950cfc2c702c1c30d4e
     </div>
 
     <Footer />
