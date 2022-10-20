@@ -14,7 +14,7 @@ const Home = () => {
     <Carousel/>
     <div className='divMid'>
         <p>Vai te fuder Luis</p>
-        <p>Vai te fuder Luis</p>
+        <p>Vafomee fuder Luis</p>
         <p>Vai te fuder Luis</p>
         <p>Vai te fuder Luis</p>
         <p>Vai te fuder Luis</p>
