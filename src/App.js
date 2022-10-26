@@ -14,7 +14,6 @@ import Cadastro from "./components/Cadastro/cadastro"
 import Login from "./components/Login/login"
 import Perfil from "./components/Perfil/perfil"
 import Especias from "./components/Especias/especias";
-import Carrinho from "./components/Carrinho/carrinho"
 import HomeDeslogado from "./components/HomeDeslogado/homeDeslogado";
 import EditarP from "./components/EditarP/editarperfil"
 import Bolo from "./components/Bolos/bolos"
@@ -41,7 +40,6 @@ const App = () => {
          <Route element={<Cadastro />} path={"/cadastro"} />
          <Route element={<Login />} path={"/login"} />
          <Route element={<Perfil/>} path={'/perfil/:id'}/>
-         <Route element={<Carrinho/>} path={'/Carrinho/:id'}/>
          <Route element={<HomeDeslogado />} path={"/homeDeslogado"} />
          <Route element={<EditarP />} path={"/editarperfil"} />
        </Routes>
