@@ -10,7 +10,6 @@ const Perfil = () => {
             <div className="Perfil">
                 <div className="body">
                     <div className="black-box">
-
                         <div className="seu-perfil" >
                             {/* <img src={registration} alt="GcadastroImg.jpg" className="imgCadastro" /> */}
                         </div>

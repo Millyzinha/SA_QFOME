@@ -13,7 +13,12 @@ import Admin from "./components/Admin/admin"
 import Cadastro from "./components/Cadastro/cadastro"
 import Login from "./components/Login/login"
 import Perfil from "./components/Perfil/perfil"
+import Especias from "./components/Especias/especias";
 import Carrinho from "./components/Carrinho/carrinho"
+import HomeDeslogado from "./components/HomeDeslogado/homeDeslogado";
+import EditarP from "./components/EditarP/editarperfil"
+import Bolo from "./components/Bolos/bolos"
+
 
 const App = () => {
   return (
@@ -26,6 +31,8 @@ const App = () => {
          <Route element={<Doces />} path={"/doces"} />
          <Route element={<Salgados />} path={"/salgados"} />
          <Route element={<Almoco />} path={"/almoco"} />
+         <Route element={<Bolo />} path={"/bolo"} />
+         <Route element={<Especias />} path={"/especias"} />
          <Route element={<Jantar />} path={"/jantar"} />
          <Route element={<Eventos />} path={"/eventos"} />
          <Route element={<Comunicados />} path={"/comunicados"} />
@@ -35,7 +42,8 @@ const App = () => {
          <Route element={<Login />} path={"/login"} />
          <Route element={<Perfil/>} path={'/perfil/:id'}/>
          <Route element={<Carrinho/>} path={'/Carrinho/:id'}/>
-
+         <Route element={<HomeDeslogado />} path={"/homeDeslogado"} />
+         <Route element={<EditarP />} path={"/editarperfil"} />
        </Routes>
      </BrowserRouter>
 

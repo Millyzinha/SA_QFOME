@@ -1,0 +1,29 @@
+.link-cadastro{
+    background-color: rgb(177, 22, 177);
+    display: flex;
+    margin: 100px;
+    margin-top: 55px;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 400px;
+    height: 20px;
+    width: 300px;
+}
+.link-login{
+    background-color: rgb(149, 88, 9);
+    align-items: center;
+    flex-direction: row;
+    margin-left: 800px;
+    height: 20px;
+    width: 300px;
+   
+
+}
+/* .DivCadastroLogin{
+    align-items: center;
+    flex-direction: row;
+    margin-left: 800px;
+    height: 20px;
+    width: 300px;
+    
+} */

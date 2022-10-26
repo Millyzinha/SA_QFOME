@@ -25,7 +25,9 @@ const Header = () => {
      <Link className='doces' to= "/Doces">Doces</Link>
      <Link className='salgados' to= "/Salgados">Salgados</Link>
      <Link className='almoco' to= "/Almoco">Almoço</Link>
+     <Link className='Bolo' to= "/Bolo">Bolo</Link>
      <Link className='jantar' to= "/Jantar">Jantar</Link>
+     <Link className='Especias' to= "/Especias">Especias QFOME</Link>
      <Link className='eventos' to= "/Eventos">Eventos</Link>
      <Link className='comunicados' to= "/Comunicados">Comunicados</Link>
      <Link className='qsomos' to= "/QuemSomos">Quem Somos</Link>
@@ -37,7 +39,12 @@ const Header = () => {
         {!nav ? (<FaBars onClick={handleNav} className='icon' />) : (<FaTimes className='icon' />)}
     </div>
     </div>
-                          
+
+           {/* <Location>
+            <MapPin weight="fill" size={22} />
+            Belo Horizonte, MG
+           </Location> */}
+
                     <div className='logo'>
                     <img src={Logo} alt="LogoCircular" className='h-logo'/>
                 </div>
