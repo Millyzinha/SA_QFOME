@@ -23,7 +23,7 @@ const Cadastro = () => {
                     })
                 }
                 await fetch('http://localhost:3001/api/user', requestOptions)
-                alert("cadastro realizado com sucesso")
+                window.location.href= "./login"
 
 
             } catch (error) {
@@ -33,7 +33,7 @@ const Cadastro = () => {
                 setPassword('')
             }
         } else {
-            alert("preencha todos os campos")
+            alert("Preencha todos os campos")
         }
     }
     return (
@@ -60,14 +60,18 @@ const Cadastro = () => {
                              />
                         </div>
                         <div className="input-senha">
-                            <input type="text"
+                            <input type="password"
                              placeholder="Senha"
                              value={password}
                              onChange={(e) => setPassword(e.target.value)}
                               />                           
                         </div>
                         {/* <div className="input-ConSenha">
-                            <input type="text" placeholder="Confirmar Senha" />                            
+                            <input type="text"
+                             placeholder="Confirmar Senha"
+                             value={}
+                             onChange={(e) => getPassword(e.target.value)}
+                             />                            
                         </div> */}
                         <br></br>
                         <div>
