@@ -1,0 +1,98 @@
+.Editar {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.foto-editar{
+    /* background: url('../Perfil/emojifome.png') no-repeat center center/cover; */
+    content: '';
+    width: 10rem;
+    height: 10rem;
+    border: 5px solid #E6E6E6;
+    margin-top: 140px;
+    margin-left: 3%;
+    cursor: pointer;
+    border-radius:50%;
+}
+.box-editar{
+    width: 60%;
+    display: flex;
+    border-radius:12px 12px 0 0;
+    height: 12rem;
+    z-index: 2;
+    background: #ED7E07;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    margin-top: 1rem;
+}
+.editar-container{
+    padding-top: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Marcynha{
+    margin-top: 50px;
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight:500;
+    align-items: center;
+}
+.inp_editar{
+    flex-direction: column;
+    background-color: transparent;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpt{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.label{
+    margin-left: 3.3%;
+}
+.btn_editar{
+    margin-right: 4%;
+    border-radius: 50px;
+    border-color: #ED7E07;
+    background-color: #ED7E07;
+}
+.cantodolula{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.inp_editar:focus {
+    color: #ED7E07;
+    outline: var(--primary-color);
+    box-shadow: 0 0 8px 0 var(--primary-dark);
+}
+.inputes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-editar2{
+    width: 60%;
+    display: flex;
+    z-index: 1;
+    border-radius: 0 0 12px 12px;
+    color: #ED7E07;
+    margin-bottom: 1.5%;
+    height: auto;
+    background: rgb(7, 6, 6);
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}

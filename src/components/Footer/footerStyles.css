@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: #000000;
+    margin: 0;
+}
+
+svg  {
+    background-color: black;
+    color: #ED7E07;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    
+}
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+
+}
+.social-group{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.redes{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .col-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    padding: 1rem;
+    width: 100%;
+}
+.footer h3 {
+    
+    text-transform: uppercase;
+    color: #ED7E07;
+    padding-left: 100px;
+}
+
+
+.footer p {
+    margin: .5rem 0;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+}
+.redessociais {
+        color: #fff;
+     
+    }
+    .social-icons{
+        margin-left: 10px;
+    }
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* justify-content: center; */
+}
+@media screen and (max-width: 940px) {
+    .footer {
+        height: 100%;
+    }
+
+    .footer .col-container {
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .footer form {
+        grid-column: 1 / span 2;
+    }}
