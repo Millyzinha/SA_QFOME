@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header/header'
 import Footer from '../Footer/footer'
-import Carousel from "../Carrossel/carrossel.js"
+import Carousel from "../Carrossel/carrossel"
 import Card from "./Card";
 
 import image1_prom from "../Principal/images/coxinha_promocao.webp"

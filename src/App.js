@@ -1,22 +1,22 @@
 
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Principal from "./components/Principal/index"
-import Almoco from "./components/Almoco/almoco"
-import Doces from "./components/Doces/doces"
-import Comunicados from "./components/Comunicado/comunicados"
-import Eventos from "./components/Eventos/eventos"
-import Jantar from "./components/Jantar/jantar"
-import QuemSomos from "./components/QuemSomos/quemsomos"
-import Salgados from "./components/Salgados/salgado"
-import Admin from "./components/Admin/admin"
-import Cadastro from "./components/Cadastro/cadastro"
-import Login from "./components/Login/login"
-import Perfil from "./components/Perfil/perfil"
-import Especias from "./components/Especias/especias";
-import HomeDeslogado from "./components/HomeDeslogado/homeDeslogado";
-import EditarP from "./components/EditarP/editarperfil"
-import Bolo from "./components/Bolos/bolos"
+import Principal from "./Components/Principal/index"
+import Almoco from "./Components/Almoco/almoco"
+import Doces from "./Components/Doces/doces"
+import Comunicados from "./Components/Comunicado/comunicados"
+import Eventos from "./Components/Eventos/eventos"
+import Jantar from "./Components/Jantar/jantar"
+import QuemSomos from "./Components/QuemSomos/quemsomos"
+import Salgados from "./Components/Salgados/salgado"
+import Admin from "./Components/Admin/admin"
+import Cadastro from "./Components/Cadastro/cadastro"
+import Login from "./Components/Login/login"
+import Perfil from "./Components/Perfil/perfil"
+import Especias from "./Components/Especias/especias";
+import HomeDeslogado from "./Components/HomeDeslogado/homeDeslogado";
+import EditarP from "./Components/EditarP/editarperfil"
+import Bolo from "./Components/Bolos/bolos"
 
 
 const App = () => {

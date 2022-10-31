@@ -1,26 +1,61 @@
+
+.row {
+  margin-bottom: 10px;
+}
+
 .card:hover {
-    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
-    transition: all 0.7s linear;
-  }
+  box-shadow: 2px 6px 10px 0px #ED7E07 !important;
+  transition: all 0.7s linear;
+}
+
+.card-body {
+  padding: 10px !important;
+  background-color: rgb(255, 255, 255);
+  /* margin-bottom: 10px!important; */
   
-  .card-body {
-    padding: 2rem 0 !important;
+}
+
+.card-title{
+    font-size: 20px;
   }
+.preco {
+      font-size: 13px;
+    }
+
+.overflow {
+  overflow: hidden;
+  flex: 1
   
-  .card-text {
-    padding: 0.3rem 1rem;
-    font-size: 1rem;
-  }
   
-  .overflow {
-    overflow: hidden;
-  }
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
   
-  .card-img-top {
-    transform: scale(1);
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .card-img-top:hover {
-    transform: scale(1.8);
-  }
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+
+.col-md-4{
+    margin-bottom: 20px;
+}
+.prom {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #ED7E07;
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,131,0,1) 100%, rgba(0,212,255,1) 100%); */
+
+}
+.card-description{
+  color: #000000;
+
+}
+.preco{
+  color: #ED7E07;
+}

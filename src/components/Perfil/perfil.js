@@ -30,7 +30,8 @@ const Perfil = () => {
                                 <br></br>
                                 <div>
                                    <button OnClick="" className="botao-editarPerfil"> Editar Perfil </button> 
-                                   <a href="editarperfil.js"> </a>
+                                   
+                                   <a href="editarperfil.js"></a>
                                 </div>
                             </div>
                         </div>

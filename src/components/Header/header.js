@@ -19,8 +19,6 @@ const Header = () => {
             <div className='esquerda'>
         
     <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-
-
      <Link className='home' to={'/'}> Home</Link>
      <Link className='doces' to= "/Doces">Doces</Link>
      <Link className='salgados' to= "/Salgados">Salgados</Link>
@@ -48,6 +46,8 @@ const Header = () => {
                     <div className='logo'>
                     <img src={Logo} alt="LogoCircular" className='h-logo'/>
                 </div>
+
+                
                 <div className='direita'>
                 < FaUserAlt className='user' onClick={() => window.location.href = `/perfil/2`} />
                 < FaCartPlus className='carrinho' onClick={() => window.location.href = `/carrinho/1`} />

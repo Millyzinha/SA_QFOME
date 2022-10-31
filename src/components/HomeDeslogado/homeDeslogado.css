@@ -19,6 +19,75 @@
    
 
 }
+
+.subtitulo{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-left:350px;
+ 
+}
+.grande{
+    color: #ED7E07;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-left:170px;
+}
+.cafezinho{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-left:170px;
+}
+.entregarapida{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-left:200px;
+    
+}
+.carinhoemoji{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-left:200px;
+    
+}
+.caixaembalagem{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-left:170px;
+}
+.carinhoemoji{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-left:170px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .DivCadastroLogin{
     align-items: center;
     flex-direction: row;

@@ -123,20 +123,20 @@ const Doces = () => {
     ]
     return (
         <div>
-            <h2>Doces</h2>
             <Header />
-
+            {/* <p className='prom'>Doces</p> */}
             <div className="container d-flex justify-content-center align-items-center h-100">
-            <div className="row">
-                {cards_doce.map(({ image, id, name, description, price, type }) => (
-                    <div className="col-md-4" key={id}>
-                        <Card imageSource={image} price={price} id={id} name={name} description={description} type={type} />
-                    </div>
-                ))}
-            </div>
-        </div>
+                <div className="row">
+                    {cards_doce.map(({ image, id, name, description, price, type }) => (
+                        <div className="col-md-4" key={id}>
+                            <Card imageSource={image} price={price} id={id} name={name} description={description} type={type} />
 
+                        </div>
+                    ))}
 
+                </div>
+
+            </div>{/*  */}
             <Footer />
         </div>
     )
