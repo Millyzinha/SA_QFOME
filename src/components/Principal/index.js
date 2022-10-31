@@ -9,6 +9,8 @@ import image4_prom from "../Principal/images/HAMBUGER2.jpg"
 import image5_prom from "../Principal/images/MOUSSE.jpg"
 import image6_prom from "../Principal/images/BRIGADEIRO.jpg"
 import image7_prom from "../Principal/images/macarrao.jpg"
+import image8_prom from "../Principal/images/cupcakeee.jpg"
+
 
 // import image3 from '../assets/image3.jpg'
 
@@ -19,42 +21,42 @@ const Home = () => {
           title: "COXINHA DE FRANGO",
           image: image1_prom,
           preco: "10 UNIDADES POR 05,00",
-          url: "https://faztweb.com",
+          url: "http://localhost:3000/salgados",
         },
         {
             id: 2,
-            title: "MACARRONS SORTIDOS",
+            title: "MOUSSE DE MARACUJÁ",
             image: image5_prom,
             preco: "10 UNIDADES POR 05,00",
-            url: "https://faztweb.com",
+            url: "http://localhost:3000/doces",
           },
           {
             id: 3,
             title: "X-PERNIL-FRIMESA",
             image: image4_prom,
             preco: "3 UNIDADES POR 20,00",
-            url: "https://faztweb.com",
+            url: "http://localhost:3000/especiais",
           },
           {
             id: 4,
             title: "BRIGADEIRO GOURMET",
             image: image6_prom,
             preco: "10 UNIDADES POR 05,00",
-            url: "https://faztweb.com",
+            url: "http://localhost:3000/doces",
           },
           {
             id: 5,
             title: "MACARRÃO",
             image: image7_prom,
             preco: "05,00 O KILO",
-            url: "https://faztweb.com",
+            url: "http://localhost:3000/jantar",
           },
           {
             id: 6,
-            title: "Macarrons sortidos",
-            image: image1_prom,
+            title: "CUPCAKE DE CHOCOLATE",
+            image: image8_prom,
             preco: "10 UNIDADES POR 05,00",
-            url: "https://faztweb.com",
+            url: "http://localhost:3000/doces",
           },
        
       ];
