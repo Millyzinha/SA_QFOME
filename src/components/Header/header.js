@@ -24,12 +24,11 @@ const Header = () => {
      <Link className='home' to={'/'}> Home</Link>
      <Link className='doces' to= "/Doces">Doces</Link>
      <Link className='salgados' to= "/Salgados">Salgados</Link>
-     <Link className='almoco' to= "/Almoco">Almoço</Link>
+     <Link className='almoco' to= "/Refeicoes">Refeições</Link>
      <Link className='Bolo' to= "/Bolo">Bolo</Link>
-     <Link className='jantar' to= "/Jantar">Jantar</Link>
      <Link className='Especias' to= "/Especias">Especias QFOME</Link>
      <Link className='eventos' to= "/Eventos">Eventos</Link>
-     <Link className='comunicados' to= "/Comunicados">Comunicados</Link>
+     {/* <Link className='comunicados' to= "/Comunicados">Comunicados</Link> */}
      <Link className='qsomos' to= "/QuemSomos">Quem Somos</Link>
     </ul>
 

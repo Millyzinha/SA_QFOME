@@ -2,11 +2,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Principal from "./components/Principal/index"
-import Almoco from "./components/Almoco/almoco"
 import Doces from "./components/Doces/doces"
-import Comunicados from "./components/Comunicado/comunicados"
+// import Comunicados from "./components/Comunicado/comunicados"
 import Eventos from "./components/Eventos/eventos"
-import Jantar from "./components/Jantar/jantar"
 import QuemSomos from "./components/QuemSomos/quemsomos"
 import Salgados from "./components/Salgados/salgado"
 import Admin from "./components/Admin/admin"
@@ -17,7 +15,7 @@ import Especias from "./components/Especias/especias";
 import HomeDeslogado from "./components/HomeDeslogado/homeDeslogado";
 import EditarP from "./components/EditarP/editarperfil"
 import Bolo from "./components/Bolos/bolos"
-
+import Refeicoes from "./components/Refeicoes/refeicoes"
 
 const App = () => {
   return (
@@ -29,12 +27,11 @@ const App = () => {
          <Route element={<Principal />} path={"/"} exact />
          <Route element={<Doces />} path={"/doces"} />
          <Route element={<Salgados />} path={"/salgados"} />
-         <Route element={<Almoco />} path={"/almoco"} />
          <Route element={<Bolo />} path={"/bolo"} />
+         <Route element={<Refeicoes />} path={"/refeicoes"} />
          <Route element={<Especias />} path={"/especias"} />
-         <Route element={<Jantar />} path={"/jantar"} />
          <Route element={<Eventos />} path={"/eventos"} />
-         <Route element={<Comunicados />} path={"/comunicados"} />
+         {/* <Route element={<Comunicados />} path={"/comunicados"} /> */}
          <Route element={<QuemSomos />} path={"/quemSomos"} />
          <Route element={<Admin />} path={"/admin"} />
          <Route element={<Cadastro />} path={"/cadastro"} />
