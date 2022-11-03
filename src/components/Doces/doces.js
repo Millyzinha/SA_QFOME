@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../Footer/footer'
 import Header from '../Header/header'
 import Card from './CARDSDOCES/index'
-import "./doces.css"
+import "../Doces/Doces.css"
 
 import imagem1 from "./imagens/mousse-de-maracuja.jpg"
 import imagem2 from "./imagens/mousse-de-limao.jpg"

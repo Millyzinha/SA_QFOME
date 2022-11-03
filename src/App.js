@@ -3,13 +3,13 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Principal from "./Components/Principal/index";
 // import Almoco from "./Components/Almoco/almoco"
-import Doces from "./Components/Doces/doces";
+import Doces from "./Components/Doces/doces"
 // import Comunicados from "./Components/Comunicado/comunicados"
 import Eventos from "./Components/Eventos/eventos";
 // import Jantar from "./Components/Jantar/jantar"
 import QuemSomos from "./Components/QuemSomos/quemsomos";
 import Salgados from "./Components/Salgados/salgado";
-import Admin from "./Components/Admin/admin";
+import Admin from "./Components/Admin/admin.js"
 import Cadastro from "./Components/Cadastro/cadastro";
 import Login from "./Components/Login/login";
 import Perfil from "./Components/Perfil/perfil";
@@ -17,7 +17,7 @@ import Especias from "./Components/Especias/especias";
 // import HomeDeslogado from "./Components/HomeDeslogado/homeDeslogado";
 import EditarP from "./Components/EditarP/editarperfil";
 import Bolo from "./Components/Bolos/bolos";
-import Refeicoes from "../src/Components/Refeicoes/refeicoes"
+import Refeicoes from "./Components/Refeicoes/refeicoes"
 
 
 const App = () => {

@@ -4,12 +4,12 @@ import Footer from '../Footer/footer'
 import Carousel from "../Carrossel/carrossel.js"
 import Card from "./Card";
 
-import image1_prom from "../Principal/images/coxinha_promocao.webp"
-import image4_prom from "../Principal/images/HAMBUGER2.jpg"
-import image5_prom from "../Principal/images/MOUSSE.jpg"
-import image6_prom from "../Principal/images/BRIGADEIRO.jpg"
-import image7_prom from "../Principal/images/macarrao.jpg"
-import image8_prom from "../Principal/images/cupcakeee.jpg"
+import image1_prom from "./images/coxinha_promocao.webp"
+import image4_prom from "./images/HAMBUGER2.jpg"
+import image5_prom from "./images/MOUSSE.jpg"
+import image6_prom from "./images/BRIGADEIRO.jpg"
+import image7_prom from "./images/macarrao.jpg"
+import image8_prom from "./images/cupcakeee.jpg"
 
 
 // import image3 from '../assets/image3.jpg'

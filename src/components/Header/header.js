@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaUserAlt, FaCartPlus, FaBars, FaTimes} from 'react-icons/fa'
 import { Link } from "react-router-dom"
-import Logo from "../Header/logo.png"
+import Logo from "./logo.png"
 import './header.css'
 
 

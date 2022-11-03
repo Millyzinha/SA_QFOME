@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Salgados/salgado.css"
+import "./salgado.css"
 import Footer from '../Footer/footer'
 import Header from '../Header/header'
 

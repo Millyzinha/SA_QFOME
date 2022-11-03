@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import "./cadastroStyle.css"
-import registration from '../Cadastro/cadastroImg.jpg'
+import registration from './cadastroImg.jpg'
 
 const Cadastro = () => {
 

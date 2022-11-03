@@ -1,8 +1,8 @@
 import React from 'react'
 import { RiSuitcaseFill } from 'react-icons/ri'
 import { RiTeamFill } from 'react-icons/ri'
-import Mesa from '../QuemSomos/imgmesa.jpg'
-import '../QuemSomos/quemSomos.css' 
+import Mesa from './imgmesa.jpg'
+import './quemSomos.css' 
 
 
 

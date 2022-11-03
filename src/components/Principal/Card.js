@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "../Principal/index.js"
-import "../Principal/index.css"
+import "./index.js"
+import "./index.css"
 
 function Card({ imageSource, title, preco, url }) {
   return (

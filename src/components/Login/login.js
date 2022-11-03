@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import { Link } from "react-router-dom"
 import './login.css'
-import Logar from "../Login/loginImg.jpg"
+import Logar from "./loginImg.jpg"
 
 
 
