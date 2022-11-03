@@ -67,6 +67,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px rgb(231, 161, 69);
+  margin-bottom: 12px;
 }
 
 .button:hover {

@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./index.css";
+import {FaCartPlus} from 'react-icons/fa'
+
 
 function Card({ imageSource, name, description, price,url }) {
   return (
@@ -8,7 +10,7 @@ function Card({ imageSource, name, description, price,url }) {
       <div className="overflow">
         <img src={imageSource} width="20" height="120" alt="a wallpaper" className="card-img-top" />
       </div>
-      <div className="card-body text-light">
+      <div className="card-body">
         <h4 className="card-title">{name}</h4>
         <p className="card-description">
           {description
@@ -23,6 +25,7 @@ function Card({ imageSource, name, description, price,url }) {
           rel="noreferrer"
         >
         </a>
+        < FaCartPlus className='carrinho' onClick={() => window.location.href = `/carrinho/1`} />
       </div>
     </div>
   );

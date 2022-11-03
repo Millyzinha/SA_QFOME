@@ -2,7 +2,7 @@
     width: 100%;
     height: 100px;
     z-index: 3;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     border-bottom: 4px solid #ED7E07;
@@ -83,7 +83,15 @@
     gap: 15px;
     transition: all 0.5s;
 }
-
+.Bolo {
+    background-color: black;
+    color: #ED7E07;
+    border-bottom: 1px solid #ED7E07;
+    display: flex;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
 .salgados {
     background-color: black;
     color: #ED7E07;
@@ -93,7 +101,15 @@
     gap: 15px;
     transition: all 0.5s;
 }
-
+.Especias {
+    background-color: black;
+    color: #ED7E07;
+    border-bottom: 1px solid #ED7E07;
+    display: flex;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
 .almoco {
     background-color: black;
     color: #ED7E07;
@@ -161,7 +177,10 @@
     color: white;
     transition: all 0.5s;
 
-
+}
+.bolo:hover{
+    color: white;
+    transition: all 0.5s;
 }
 .almoco:hover{
     color: white;
@@ -184,8 +203,14 @@
     color: white;
     transition: all 0.5s;
 
+}
+.Especias:hover{
+    color: white;
+    transition: all 0.5s;
 
 }
+
+
 .qsomos:hover{
     color: white;
     transition: all 0.5s;
@@ -207,7 +232,9 @@
     height: 100%;
     align-items: center;
     padding: 1rem;
-    
+    z-index: 2000;
+
+
 }
 
 .active {

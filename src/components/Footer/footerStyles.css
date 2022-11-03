@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: auto;
-    position: fixed;
+    /* position: fixed; */
     background: #000000;
     margin: 0;
 }
