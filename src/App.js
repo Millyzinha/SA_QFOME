@@ -14,10 +14,11 @@ import Cadastro from "./Components/Cadastro/cadastro";
 import Login from "./Components/Login/login";
 import Perfil from "./Components/Perfil/perfil";
 import Especias from "./Components/Especias/especias";
-// import HomeDeslogado from "./Components/HomeDeslogado/homeDeslogado";
+import HomeDeslogado from "./Components/HomeDeslogado/homeDeslogado.js";
 import EditarP from "./Components/EditarP/editarperfil";
 import Bolo from "./Components/Bolos/bolos";
 import Refeicoes from "./Components/Refeicoes/refeicoes"
+import Novidades from "./Components/HomeDeslogado/novidades/novidades"
 
 
 const App = () => {
@@ -40,8 +41,9 @@ const App = () => {
          <Route element={<Cadastro />} path={"/cadastro"} />
          <Route element={<Login />} path={"/login"} />
          <Route element={<Perfil/>} path={'/perfil/:id'}/>
-         {/* <Route element={<HomeDeslogado />} path={"/homeDeslogado"} /> */}
+         <Route element={<HomeDeslogado />} path={"/homeDeslogado"} />
          <Route element={<EditarP />} path={"/editarperfil"} />
+         <Route element={<Novidades />} path={"/novidades"} />
        </Routes>
      </BrowserRouter>
 
