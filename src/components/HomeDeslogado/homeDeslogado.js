@@ -4,6 +4,7 @@ import "../HomeDeslogado/homeDeslogado.css"
 import Logo from "../Header/logo.png"
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import LogoHamburguer from "../HomeDeslogado/imagens/logohamb.png"
 
 
 const HOMEDeslogado = () => {
@@ -28,6 +29,79 @@ const HOMEDeslogado = () => {
     </Nav>
 </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* GUSTAVO, MEXER SÓ NO QUE ESTA DENTRO DA DIV MEIO */}
+
+{/* PARA ACESSAR A PAGINA: http://localhost:3000/HomeDeslogado */}
+
+
+
+
+
+
+
+
+        <div className='meio'>
+
+            <div className='divflex'>
+        <div className='marklandingtext'>
+
+            <h2 className='LandMARK'>Encontre a refeição perfeita </h2>
+            <h2 className='LandMARK'>para qualquer hora do seu dia, </h2>
+            <h2 className='LandMARKF'>cadastre-se na Qfome e faça Login!</h2>
+</div>
+<div className='buttons'>
+
+<a
+          href={  "/login"}
+          target="_blank"
+          className="button"
+          rel="noreferrer"
+        >
+          Logar
+        </a>
+
+        <a
+          href={  "/cadastro"}
+          target="_blank"
+          className="button"
+          rel="noreferrer"
+        >
+          Cadastrar
+        </a>
+
+        </div>
+        </div>
+  
+            <div className='hamb'>
+                    <img src={LogoHamburguer} alt="LogoLANDING" className='LOGOHAMB'/>
+                </div>
+        </div>
+
+
+
+
+
+
+{/* FIM DA DIV MEIO  */}
+
+
+
+
+
+
         <div className='footerdiv'>
             < Footer />
             </div>

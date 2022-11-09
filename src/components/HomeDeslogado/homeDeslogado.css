@@ -8,7 +8,7 @@
     border-bottom: 4px solid #ED7E07;
     background-color: rgb(0, 0, 0);
     top: 0%;
-    margin-bottom: 500px;
+    /* margin-bottom: 2px; */
     flex-direction: row;
 }
 .h-logo {
@@ -75,4 +75,120 @@ a.cadastrar.nav-link {
 }
 div.nav {
     margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GUSTAVO, MEXER NO CSS DEBAIXO DESSE COMENTARIO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meio {
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+        margin-top: 150px;
+        
+        padding-left: 100px;
+    }
+.hamb {
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 1px important!;
+    font-size: 0;
+}
+/* .divflex {
+    
+} */
+.LandMARK{
+        display: block important!;
+
+    }
+.LandMARKF {
+    display: block important!;
+    margin-bottom: 100px;
+}
+
+.LOGOHAMB{
+    width: 600px;
+    height: 600px;
+    /* margin-top: 20px important!; */
+}
+
+.buttons {
+    display: inline-block;
+    font-size: 0;
+}
+a.button{
+    display: block important!;
+}
+.footerdiv {
+    margin-top: 100px;
 }

@@ -9,7 +9,7 @@ import Eventos from "./Components/Eventos/eventos";
 // import Jantar from "./Components/Jantar/jantar"
 import QuemSomos from "./Components/QuemSomos/quemsomos";
 import Salgados from "./Components/Salgados/salgado";
-import Admin from "./Components/Admin/admin.js"
+import Admin from "../src/Components/Admin/admin"
 import Cadastro from "./Components/Cadastro/cadastro";
 import Login from "./Components/Login/login";
 import Perfil from "./Components/Perfil/perfil";
