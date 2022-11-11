@@ -1,12 +1,52 @@
+.body{
+    background-color: #a37e55;
+}
+
+
 .cadastrar-se {
     width: 50%;
-    height: 100%;
+    height: 0%;
+    box-shadow: 0 8px 32px 0 #ED7E07;
+  
 }
 
 .imgCadastro{
-    width:100% 
+    width:100%;
+   
     
 }
+
+.navbar3{
+    width: 100%;
+    height: 100px;
+    z-index: 3;
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid #ED7E07;
+    background-color: black;
+    top: 0%;
+}
+
+.h-logo3 {
+    width: 135px;
+    height: 135px;
+    background-size: cover;
+    border-radius: 50%;
+    z-index: 6;   
+    
+    
+}
+
+.logo3{
+    display: flex;
+    margin-top: 55px;
+    align-items: center;
+}
+
+
+
+
 
 .box-input {
     background-color: rgb(255, 255, 255) ;
@@ -24,25 +64,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: cursive;
     color: rgb(235, 143, 45);
 }
 
 .cadastro {
     cursor: pointer;
-    font-family: cursive;
     font-size: 20px;
-    width: 60%;
+    width: 55%;
     background-color: #ffffff;
     border-radius: 15px;
-    height: 65%;
+    height: 60%;
     justify-content: center;
-    display: flex;
-    gap: 5%;
+    display:flex;
+    gap: 3%;
     flex-direction: column;
     text-align: center;
     background: rgba(255, 255, 255, 0.35);
-    box-shadow: 0 8px 32px 0 #817f7f;
+    box-shadow: 0 8px 32px 0 #ED7E07;
     
 }
 
@@ -71,6 +109,7 @@
     border: 0;
     justify-content: center;
     align-items: center;
+  
    
 }
 
@@ -97,6 +136,7 @@
     height: 100%;
     width: 70%;
     border: 0;
+    gap: 10%;
     border-bottom: 1px solid #817f7f;
     background-color: transparent;
     line-height: 1.5; 
@@ -137,21 +177,21 @@ input:focus{
 }
 
  .botao-cadastro {
-     font-family: cursive;
-    background-color: #ED7E07;
+    background-color: black;
     width: 30%;
-    height: 100%;
-    /* border-radius: 10%; */
+    height: 150%;
+    border-style:none;
+    border-radius: 50%;
     border: none;
-    padding: 10px;
-    color: white;
+    padding: 5px;
+    color: #ED7E07;
     cursor: pointer;
     
 } 
-
+/* 
 .link-login {
-    font-family: cursive;
+    color: black;
     height: 50%;
     height: 50%;
     
-}
+} */

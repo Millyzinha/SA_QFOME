@@ -41,6 +41,7 @@ const Login = () => {
 
     return (
         <div className="body">
+            
             <div className="every-input">                
             <div className="login-img">
                 <img src={Logar} alt="loginImg.jpg" className="img-login" />

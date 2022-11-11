@@ -1,20 +1,10 @@
-.container {
-    background-color: white;
+.mini-texto{
+    text-align: center;
+    width: 50%;
 }
-
-.h-mesa{
-    height: 300px;
-    width: 500px;
-   
-
-}
-
-.title {
-    font-family: Cambria;
-    font-size: 15px;
-    color: black;
-
-
+.texto-equipe{
+    text-align: left;
+    
 }
 
 .dad-icons {
@@ -26,24 +16,25 @@
 .icon-qsomos {
     background-color: white;
     color: #ED7E07;
-    width: 200px;
+    width: 50%;
     height: 100px;
 }
 
 .icon-equipe {
     background-color: white;
     color: #ED7E07;
-    width: 200px;
+    width: 50%;
     height: 100px;
 }
 
 .h2-empresa {
-    font-family: Cambria;
+    text-align: center;
+    width: 50%;
     color: black;
 }
 
 .h2-equipe {
-    font-family: Cambria;
+    text-align: center;
+    width: 50%;
     color: black;
 }
-

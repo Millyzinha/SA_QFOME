@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../Footer/footer'
-import "../HomeDeslogado/homeDeslogado.css"
+import "./homeDeslogado.css"
 import Logo from "../Header/logo.png"
 import { Link } from "react-router-dom"
 const HOMEDeslogado = () => {
