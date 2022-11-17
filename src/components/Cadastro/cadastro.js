@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import "./cadastroStyle.css"
-import registration from './cadastroImg.jpg'
+import registration from '../Cadastro/cadastroImg.jpg'
+import Logo from "../Header/logo.png"
 
 const Cadastro = () => {
 
@@ -23,7 +24,7 @@ const Cadastro = () => {
                     })
                 }
                 await fetch('http://localhost:3001/api/user', requestOptions)
-                window.location.href= "./login"
+                alert("cadastro realizado com sucesso")
 
 
             } catch (error) {
@@ -33,18 +34,23 @@ const Cadastro = () => {
                 setPassword('')
             }
         } else {
-            alert("Preencha todos os campos")
+            alert("preencha todos os campos")
         }
     }
     return (
         <div className="body">
+            <div className="navbar3">
+             <div className="logo3">
+             <img src={Logo} alt="LogoCircular" className='h-logo3'/>
+        </div>
+        </div>
             <div className="black-box">
                 <div className="cadastrar-se" >
                     <img src={registration} alt="GcadastroImg.jpg" className="imgCadastro"/>
                 </div>
                 <div className="box-input">
                     <div className="cadastro">
-                        <h1 className="input-Cconta">Criar Conta</h1>
+                        <h1 className="input-Cconta">Cadastre-se</h1>
                         <div className="input-cadastro">
                             <input type="text"
                                 placeholder="Nome de Usuário"
@@ -60,22 +66,18 @@ const Cadastro = () => {
                              />
                         </div>
                         <div className="input-senha">
-                            <input type="password"
+                            <input type="text"
                              placeholder="Senha"
                              value={password}
                              onChange={(e) => setPassword(e.target.value)}
                               />                           
                         </div>
                         {/* <div className="input-ConSenha">
-                            <input type="text"
-                             placeholder="Confirmar Senha"
-                             value={}
-                             onChange={(e) => getPassword(e.target.value)}
-                             />                            
+                            <input type="text" placeholder="Confirmar Senha" />                            
                         </div> */}
                         <br></br>
-                        <div>
-                            <button onClick={postUser} className="botao-cadastro"> Cadastre-se </button>
+                        <div className="button-cadas">
+                            <button onClick={postUser} className="botao-cadastro"> Criar </button>
                         </div>
                         <p className="link-login">Já possui uma conta? <Link to='/Login'>Login</Link></p>
                     </div>
@@ -85,6 +87,7 @@ const Cadastro = () => {
             </div>
 
         </div>
+    
     )
 }
 
