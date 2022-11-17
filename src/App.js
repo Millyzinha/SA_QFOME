@@ -27,8 +27,8 @@ const App = () => {
 
      <BrowserRouter>
        <Routes>
-        
-         <Route element={<Principal />} path={"/"} exact />
+         <Route element={< HomeDeslogado />} path={"/"} exact />
+         <Route element={<Principal />} path={"/home"} />
          <Route element={<Doces />} path={"/doces"} />
          <Route element={<Salgados />} path={"/salgados"} />
          <Route element={<Bolo />} path={"/bolo"} />
@@ -41,7 +41,7 @@ const App = () => {
          <Route element={<Cadastro />} path={"/cadastro"} />
          <Route element={<Login />} path={"/login"} />
          <Route element={<Perfil/>} path={'/perfil/:id'}/>
-         <Route element={<HomeDeslogado />} path={"/homeDeslogado"} />
+         {/* <Route element={<HomeDeslogado />} path={"/homeDeslogado"} /> */}
          <Route element={<EditarP />} path={"/editarperfil"} />
          <Route element={<Novidades />} path={"/novidades"} />
        </Routes>

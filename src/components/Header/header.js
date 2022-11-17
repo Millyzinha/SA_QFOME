@@ -19,7 +19,7 @@ const Header = () => {
             <div className='esquerda'>
         
     <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-     <Link className='home' to={'/'}> Home</Link>
+     <Link className='home' to={'/home'}> Home</Link>
      <Link className='doces' to= "/Doces">Doces</Link>
      <Link className='salgados' to= "/Salgados">Salgados</Link>
      <Link className='almoco' to= "/Refeicoes">Refeições</Link>
