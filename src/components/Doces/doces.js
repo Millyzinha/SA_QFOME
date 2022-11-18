@@ -24,7 +24,7 @@ const Doces = () => {
             image: imagem1,
             type: ['tradicional'],
             name: 'MOUSSE DE MARACUJÁ',
-            description: 'O tradicional café feito com água quente e grãos moídos',
+            description: 'Mousse de maracujá natural, contém sementes e  uma textura deliciosa.',
             price: 7.59,
         },
         {
@@ -32,7 +32,7 @@ const Doces = () => {
             image: imagem2,
             type: ['tradicional'],
             name: 'MOUSSE DE LIMÃO',
-            description: 'Expresso diluído, menos intenso que o tradicional',
+            description: 'Mousse de limão com um gosto mais azedinho, perfeito para sua tarde.',
             price: 7.59,
         },
         {
@@ -40,7 +40,7 @@ const Doces = () => {
             image: imagem3,
             type: ['tradicional'],
             name: 'MOUSSE DE CHOCOLATE',
-            description: 'Café expresso tradicional com espuma cremosa',
+            description: '  Mousse de chocolate com chantilly acomanhado de calda de chocolate',
             price: 8.8,
         },
         {
@@ -48,15 +48,15 @@ const Doces = () => {
             image: imagem4,
             type: ['tradicional', 'gelado'],
             name: 'BRIGADEIRO E BEIJINHO',
-            description: 'Bebida preparada com café expresso e cubos de gelo',
+            description: 'Brigadeiro cremoso com granulados de chocolate e beijinhos com côco ralado',
             price: 9.9,
         },
         {
             id: '5',
             image: imagem5,
             type: ['tradicional', 'com leite'],
-            name: 'BRIGADEIRO DE LEITE NINHO',
-            description: 'Meio a meio de expresso tradicional com leite vaporizado',
+            name: 'BRIGADEIRO LEITE NINHO',
+            description: 'Brigadeiro feito com leite ninho e uma deliciosa calda de chocolate.',
             price: 12.29,
         },
         {
@@ -65,16 +65,16 @@ const Doces = () => {
             type: ['tradicional', 'com leite'],
             name: 'BRIGADEIROS',
             description:
-                'SENSAÇÃO, NINHO, CHURROS E BEIJINHO',
+                'Brigadeiros sortidos, contém todos os sabores, se surpreenda ao comprar',
             price: 12.29,
         },
         {
             id: '7',
             image: imagem7,
             type: ['tradicional', 'com leite'],
-            name: 'MORANGO COM CHOCOLATE',
+            name: 'MORANGO DE CHOCOLATE',
             description:
-                'Bebida com canela feita de doses iguais de café, leite e espuma',
+                'Morangos frescos acompanhados de calda de chocolate, cada um vem no espetinho.',
             price: 12.29,
         },
         {
@@ -83,7 +83,7 @@ const Doces = () => {
             type: ['tradicional', 'com leite'],
             name: 'SORVETE DE MORANGO',
             description:
-                'SORVETE NATURAL DE MORANGO',
+                'Sorvete de morango natural, acompanhados de pequenos pedaços de fruta de morango',
             price: 12.29,
         },
         {
@@ -91,7 +91,7 @@ const Doces = () => {
             image: imagem9,
             type: ['tradicional', 'com leite'],
             name: 'TORTA DE MORANGO',
-            description: 'Café expresso com calda de chocolate, pouco leite e espuma',
+            description: 'Torta de morango com recheio de chocolate, chantilly e frutas de morango.',
             price: 12.29,
         },
         {
@@ -99,7 +99,7 @@ const Doces = () => {
             image: imagem10,
             type: ['especial', 'com leite'],
             name: 'SAGU DE VINHO',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            description: 'Sagu de vinho com calda cremosa acompanhado de creme e chantilly',
             price: 12.29,
         },
         {
@@ -107,7 +107,7 @@ const Doces = () => {
             image: imagem11,
             type: ['especial', 'com leite'],
             name: 'ARROZ DOCE',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            description: 'Arroz doce com canela, uma deliciosa refeição para seu dia.',
             price: 12.29,
         },
         {
@@ -115,7 +115,7 @@ const Doces = () => {
             image: imagem12,
             type: ['especial', 'com leite'],
             name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            description: 'Pudim tradicional cremoso, experimente para uma sobremesa.',
             price: 12.29,
         },
 
@@ -124,7 +124,7 @@ const Doces = () => {
     return (
         <div>
         
-            <Header />
+            <Header className="header" />
 
             <div className="container d-flex justify-content-center align-items-center h-100">
             <div className="row">
