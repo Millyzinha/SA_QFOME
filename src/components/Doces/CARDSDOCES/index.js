@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./index.css";
-import {FaCartPlus} from 'react-icons/fa'
+// import {FaCartPlus, FaPlus} from 'react-icons/fa'
+import {VscRemove, VscAdd} from 'react-icons/vsc'
 
 
 function Card({ imageSource, name, description, price,url }) {
@@ -18,14 +19,21 @@ function Card({ imageSource, name, description, price,url }) {
             : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam deserunt fuga accusantium excepturi quia, voluptates obcaecati nam in voluptas perferendis velit harum dignissimos quasi ex? Tempore repellat quo doloribus magnam."}
         </p>
         <h6 className="preco">{price}</h6>
-        <a 
+        {/* <a 
           href={url ? url : "#!"}
           target="_blank"
           className="btn-carrinho border-0"
           rel="noreferrer"
         >
-        </a>
-        < FaCartPlus className='carrinho' onClick={() => window.location.href = `/carrinho/1`} />
+        </a> */}
+
+        <VscAdd className="Adicionar"/>
+
+        <input className="resposta" type={"number"}></input>
+
+        < VscRemove className="Remover"/>
+
+        <button className="buttona">Adicionar</button>
       </div>
     </div>
   );

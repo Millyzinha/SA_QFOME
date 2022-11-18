@@ -1,7 +1,26 @@
 
 .row {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
+.card-img-top{
+  width: 250px;
+  height: 250px;
+
+
+
+}
+.Adicionar{
+  background-color: white;
+  padding-right: 10px;
+  width: 30px;
+}
+
+    .Remover {
+      background-color: white;
+      padding-left: 10px;
+      width: 30px;
+    }
 
 .card:hover {
   box-shadow: 2px 6px 10px 0px #ED7E07 !important;
@@ -41,6 +60,7 @@
 
 .col-md-4{
     margin-bottom: 20px;
+    margin-top: 1000px;
 }
 .prom {
   font-size: 40px;
@@ -63,3 +83,42 @@
   font-size: 30px;
   color: #ED7E07;
 }
+
+  .resposta {
+
+    width: 40px;
+    border: none;
+  }
+
+
+  .buttona {
+    display: flexbox;
+    padding: 5px 45px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ED7E07;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(231, 161, 69);
+    margin-bottom: 12px;
+  }
+  
+  .buttona:hover {
+    background-color: #ffffff
+  
+  }
+  
+  .buttona:active {
+    background-color: #ED7E07;
+    box-shadow: 0 5px rgba(243, 111, 4, 0.678);
+    transform: translateY(4px);
+  }
+  
+  a.butttona {
+      color: #ED7E07;
+    }
+  
