@@ -31,7 +31,12 @@
   padding: 10px !important;
   background-color: rgb(255, 255, 255);
   /* margin-bottom: 10px!important; */
+  align-items: center;
   
+}
+.buttonteste {
+  justify-content: center;
+  align-items: center;
 }
 
 .card-title{
@@ -91,14 +96,17 @@
   }
 
 
+
   .buttona {
-    display: flexbox;
-    padding: 5px 45px;
+    /* display: flex; */
+    width: 320px;
+    height: 40px;
+    justify-content: center;
     font-size: 18px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    outline: none;
+    /* outline: none; */
     color: #fff;
     background-color: #ED7E07;
     border: none;
@@ -108,7 +116,7 @@
   }
   
   .buttona:hover {
-    background-color: #ffffff
+    background-color: #eb8816
   
   }
   
