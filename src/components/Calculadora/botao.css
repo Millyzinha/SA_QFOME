@@ -1,0 +1,43 @@
+.botao-wrapper {
+    background-color: #e0e1e6;
+    color: #888;
+  }
+  
+  .botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    flex: 1;
+    outline: 1px solid #888;
+    height: 3.5em;
+  }
+  
+  .operacao {
+    background-color: #ED7E07;
+    color: #fff;
+  }
+  
+  .btn-igual {
+    background-color: #000000;
+    color: #ED7E07;
+  }
+  
+  .input {
+    height: 3em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.6em;
+    background-color: #000000;
+    color: #ED7E07;
+    padding: 0.5em;
+    outline: 1px solid #ED7E07;
+    display: flex;
+    align-items: center;
+
+   
+  }
+  
