@@ -9,7 +9,7 @@ import Eventos from "./Components/Eventos/eventos";
 // import Jantar from "./Components/Jantar/jantar"
 import QuemSomos from "./Components/QuemSomos/quemsomos";
 import Salgados from "./Components/Salgados/salgado";
-import Admin from "../src/Components/Admin/admin"
+import Admin from "./Components/Admin/admin"
 import Cadastro from "./Components/Cadastro/cadastro";
 import Login from "./Components/Login/login";
 import Perfil from "./Components/Perfil/perfil";
@@ -19,6 +19,7 @@ import EditarP from "./Components/EditarP/editarperfil";
 import Bolo from "./Components/Bolos/bolos";
 import Refeicoes from "./Components/Refeicoes/refeicoes"
 import Novidades from "./Components/HomeDeslogado/novidades/novidades"
+import Calculadora from "./Components/Calculadora/index"
 
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
          {/* <Route element={<HomeDeslogado />} path={"/homeDeslogado"} /> */}
          <Route element={<EditarP />} path={"/editarperfil"} />
          <Route element={<Novidades />} path={"/novidades"} />
+         <Route element={<Calculadora />} path={"/calculadora"} />
        </Routes>
      </BrowserRouter>
 

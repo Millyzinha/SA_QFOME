@@ -15,7 +15,7 @@ function Card({ imageSource, title, preco, url }) {
         <h6 className="preco">{preco}</h6>
         <a
           href={url ? url : "#!"}
-          target="_blank"
+          target="_self"
           className="button"
           rel="noreferrer"
         >

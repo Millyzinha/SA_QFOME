@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import { Link } from "react-router-dom"
 import './login.css'
 import Logar from "./loginImg.jpg"
-import Logo from "../Header/logo.png"
 
 
 
@@ -41,32 +40,40 @@ const Login = () => {
    }}}
 
     return (
-        <>
-        <div className="navbar3">
-         <div className="logo3">
-         <img src={Logo} alt="LogoCircular" className='h-logo3'/>
-    </div>
-    </div>
-     <div className="main-login">
-        <div className="left-login">
-            <h1>Estavamos esperando por você, faça seu login</h1>
-            <img src={Logar} alt="loginImg.jpg" className="entregador"/>
-        </div>
-        <div className="right-login"></div>
-            <div className="card-login">
-                <h1>Logar usuário</h1>
-               <div className="textlogin">
-                    <label for="usuarioL">Nome de usuário</label>
-                    <input type="text"></input>
-               </div>
-               <div className="textlogin">
-                    <label for="senhaL">Senha</label>
-                    <input type="password"></input>
-                    <button className="bot-login">Logar</button>
-               </div>
+        <div className="body">
+            
+            <div className="every-input">                
+            <div className="login-img">
+                <img src={Logar} alt="loginImg.jpg" className="img-login" />
+                </div>  
+            <div className="login-input">
+            
+                    <h1 className="h1-login">Faça seu Login</h1>
+                    <div className="login-usuario">
+                    <input type="text"
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    /> 
+                    </div>               
+                    <div className="login-senha">
+                    <input type="password"
+                        placeholder="Senha"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                </div>
+                <div className="botao-login">
+                    <button onClick={getUsers} className="login-form-btn">Entrar</button>
+                </div>                
+                <p>Não possui uma conta?<Link to='/Cadastro'>Cadastre-se</Link></p>
+
+                </div>
+
+                
             </div>
-    </div>
-    </>
+
+        </div>
     )
 }
 

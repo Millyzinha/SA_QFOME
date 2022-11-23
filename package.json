@@ -13,6 +13,7 @@
     "@types/styled-components": "^5.1.26",
     "babel-preset-es2015": "^6.24.1",
     "bootstrap": "^5.1.3",
+    "mathjs": "^11.4.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",

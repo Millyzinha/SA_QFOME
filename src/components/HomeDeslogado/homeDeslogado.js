@@ -30,11 +30,34 @@ const HOMEDeslogado = () => {
 </div>
         </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+{/* GUSTAVO, MEXER SÓ NO QUE ESTA DENTRO DA DIV MEIO */}
+
+{/* PARA ACESSAR A PAGINA: http://localhost:3000/HomeDeslogado */}
+
+
+
+
+
+
+
+
         <div className='meio'>
 
             <div className='divflex'>
         <div className='marklandingtext'>
-            <div className='daiana'>
+
             <h2 className='LandMARK'>Encontre a refeição perfeita </h2>
             <h2 className='LandMARK'>para qualquer hora do seu dia, </h2>
             <h2 className='LandMARKF'>cadastre-se na Qfome e faça Login!</h2>
@@ -58,14 +81,13 @@ const HOMEDeslogado = () => {
         >
           Cadastrar
         </a>
+
         </div>
-        </div>
-        <div className='hamb'>
-                    <img src={LogoHamburguer} alt="LogoLANDING" className='LOGOHAMB'/>
-                </div>
         </div>
   
-           
+            <div className='hamb'>
+                    <img src={LogoHamburguer} alt="LogoLANDING" className='LOGOHAMB'/>
+                </div>
         </div>
 
 

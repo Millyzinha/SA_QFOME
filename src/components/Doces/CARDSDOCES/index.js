@@ -5,7 +5,7 @@ import "./index.css";
 import {VscRemove, VscAdd} from 'react-icons/vsc'
 
 
-function Card({ imageSource, name, description, price,url }) {
+function Card({ imageSource, name, description, price, url }) {
   return (
     <div className="card text-center animate__animated animate__fadeInUp">
       <div className="overflow">
@@ -45,7 +45,7 @@ Card.propTypes = {
   id: PropTypes.string,
   image: PropTypes.string,
   description: PropTypes.string,
-  price: PropTypes.string,
+  Price: PropTypes.string,
 };
 
 export default Card;
