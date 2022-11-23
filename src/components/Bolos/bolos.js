@@ -21,6 +21,7 @@ import imagem12 from "../Bolos/imagens/calda.jpg"
 
 const Bolo =() => {
     const cards_bolo = [
+        
         {
             id: '1',
             image: imagem1,

@@ -16,7 +16,7 @@ import Perfil from "./Components/Perfil/perfil";
 import Especias from "./Components/Especias/especias";
 import HomeDeslogado from "./Components/HomeDeslogado/homeDeslogado.js";
 import EditarP from "./Components/EditarP/editarperfil";
-import Bolo from "./Components/Bolos/bolos";
+import Bolos from "./Components/Bolos/bolos";
 import Refeicoes from "./Components/Refeicoes/refeicoes"
 import Novidades from "./Components/HomeDeslogado/novidades/novidades"
 import Calculadora from "./Components/Calculadora/index"
@@ -32,7 +32,7 @@ const App = () => {
          <Route element={<Principal />} path={"/home"} />
          <Route element={<Doces />} path={"/doces"} />
          <Route element={<Salgados />} path={"/salgados"} />
-         <Route element={<Bolo />} path={"/bolo"} />
+         <Route element={<Bolos />} path={"/bolos"} />
          <Route element={<Refeicoes />} path={"/refeicoes"} />
          <Route element={<Especias />} path={"/especias"} />
          <Route element={<Eventos />} path={"/eventos"} />

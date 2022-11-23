@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import { FaUserAlt, FaCartPlus, FaBars, FaTimes } from 'react-icons/fa'
 import Logo from "./logo.png"
 import './header.css'
-import { MdCalculate } from "react-icons/md"
+// import { MdCalculate } from "react-icons/md"
 import { IoMdCart } from "react-icons/io"
-import $ from 'jquery'
-import { GiCupcake } from "react-icons/gi"
+// import $ from 'jquery'
+// import { GiCupcake } from "react-icons/gi"
 
 
 import * as FaIcons from 'react-icons/fa';

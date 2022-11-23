@@ -66,6 +66,7 @@ const Cadastro = () => {
                         <input type="password"></input>
                         <button className="bot-cadastro">Cadastrar</button>
                    </div>
+                   <p className="link-login">Já possui uma conta? <Link to='/Login'>Login</Link></p>
                 </div>
         </div>
         </>

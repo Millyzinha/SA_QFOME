@@ -38,7 +38,7 @@ export default function App() {
   
     <div className="App">
       <Header />
-     
+     <h1/>
       <h1>Calculadora Qfome</h1>
       <div className="calc-wrapper">
         <Botao isInput>{input}</Botao>
