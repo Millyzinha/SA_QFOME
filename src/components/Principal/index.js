@@ -14,7 +14,7 @@ import image8_prom from "./images/cupcakeee.jpg"
 
 // import image3 from '../assets/image3.jpg'
 
-const Home = () => {
+const Principal = () => {
     const cards_prom = [
         {
           id: 1,
@@ -86,4 +86,4 @@ const Home = () => {
     )
 }    
 
-export default Home
+export default Principal

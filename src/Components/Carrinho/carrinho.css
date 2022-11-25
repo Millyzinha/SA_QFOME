@@ -1,111 +1,14 @@
- Form {
-    display: grid;
-    grid-template-columns: 40rem 1fr;
-    gap: 2rem;
-    padding: 9rem 0;
-    @media (max-width: 1136px) {
-      max-width: 40rem;
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
- }}
-.FinalizeOrderContainer {
-        display: block;
-        margin-bottom: 0.9375rem;
-        font-family: 'Baloo 2', sans-serif;
-        font-weight: 700;
-        font-size: 1.125rem;
-        line-height: 1.4625rem;
-        color: 'gray-500';
-}
- .FinalizeOrderContent {
+.info{
+    width: 25%;
+    margin-top: 15%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 2.5rem;
-    background-color:'white-300';
-    @media (max-width: 396px) {
-      padding: 1rem;
-    }
- }
-.CalcTotalSection {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+    padding: 30px 35px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #181512;
 }
-.CalcTotalBase {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-      font-size: 0.875rem;
-      line-height: 1.1375rem; 
-}
-.span:last-child {
-    font-size: 1rem;
-  }
- .CalcTotalItens{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-      font-size: 0.875rem;
-      line-height: 1.1375rem; 
- }
-.CalcTotalShipping {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-      font-size: 0.875rem;
-      line-height: 1.1375rem;     
-}
-.CalcTotal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-      font-size: 0.875rem;
-      line-height: 1.1375rem;  
-}
-  span:last-child {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.625rem;
-    color:'gray-500';
-  }
-.FinalizeOrderButton{
-    padding: 0.75rem 0.5rem;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    font-size: 0.875rem;
-    font-weight: 700;
-    line-height: 1.4rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    color:'white-100';
-    background-color:'yellow-500';
-    transition: all 0.2s;
-}
-  .hover {
-    background-color: 'yellow-900';
-  }
-  .focus {
-    outline: none;
-    box-shadow: 0 0 0 2px 'yellow-500';
-    border: 2px solid'white-300';
-  }
-.disabled {
-    cursor: not-allowed;
-    background-color:'yellow-900';
-  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-  

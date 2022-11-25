@@ -20,6 +20,7 @@ import Bolos from "./Components/Bolos/bolos";
 import Refeicoes from "./Components/Refeicoes/refeicoes"
 import Novidades from "./Components/HomeDeslogado/novidades/novidades"
 import Calculadora from "./Components/Calculadora/index"
+import Carrinho from "./Components/Carrinho/carrinho";
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
          <Route element={<EditarP />} path={"/editarperfil"} />
          <Route element={<Novidades />} path={"/novidades"} />
          <Route element={<Calculadora />} path={"/calculadora"} />
+         <Route element={<Carrinho/>} path={"/carrinho"} />
        </Routes>
      </BrowserRouter>
 
